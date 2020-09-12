@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+book:
+  id: ${random.uuid}
+  name: Kiki
+

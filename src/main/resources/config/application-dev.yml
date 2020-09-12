@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+#logging:
+#  level:
+#    root: info
+#    com.expamle: debug
+#  file:
+#    name: logs/debug.log
+
+spring:
+  datasource:
+    hikari: driver-class-name:com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:306/book?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+
+
+

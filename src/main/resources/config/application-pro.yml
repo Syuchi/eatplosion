@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+book:
+  id: ${random.uuid}
+  name: Kiki
