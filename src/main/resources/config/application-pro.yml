@@ -3,6 +3,4 @@ server:
   servlet:
     context-path: /api
 
-book:
-  id: ${random.uuid}
-  name: Kiki
+
